@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Catamaran", sans-serif;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 246, 47);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(255, 246, 47, 1) 0%,
+    rgba(236, 185, 9, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 246, 47, 1) 0%,
+    rgba(236, 185, 9, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 246, 47, 1) 0%,
+    rgba(236, 185, 9, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fff62f",endColorstr="#ecb909",GradientType=1);
+  background-repeat: no-repeat;
+  height: 900px;
+  width: auto;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 50px;
+  background: rgb(92, 164, 247);
+  background: -moz-linear-gradient(
+    203deg,
+    rgba(92, 164, 247, 1) 0%,
+    rgba(16, 85, 246, 1) 17%,
+    rgba(29, 254, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    203deg,
+    rgba(92, 164, 247, 1) 0%,
+    rgba(16, 85, 246, 1) 17%,
+    rgba(29, 254, 255, 1) 100%
+  );
+  background: linear-gradient(
+    203deg,
+    rgba(92, 164, 247, 1) 0%,
+    rgba(16, 85, 246, 1) 17%,
+    rgba(29, 254, 255, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#5ca4f7",endColorstr="#1dfeff",GradientType=1);
+  color: white;
+  font-size: 14px;
+}
+
+.search-div {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.btn {
+  margin-top: 3px;
+  width: 153px;
+  height: 25px;
+  background-color: rgb(20, 129, 207);
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn:hover {
+  transition: 1s ease-in-out;
+  background: #a69c0d;
+  color: black;
+  border: black dotted 1px;
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-left: 4px;
+}
+
+.div2 {
+  justify-items: center;
+  width: 200px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.div3 {
+  margin-right: 8px;
+  width: 880px;
+  height: 500px;
+}
+
+.top {
+  width: 880px;
+  height: 250px;
+  border-bottom: 1px black solid;
+  border-top: 1px black solid;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 880px;
+  height: 325px;
+}
+
+.day1,
+.day2,
+.day3,
+.day4,
+.day5 {
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 195px;
+  height: 200px;
+  border-right: black 2px solid;
+  border-left: black 2px solid;
+}
